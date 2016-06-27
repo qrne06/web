@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0033)https://braingps.mricloud.org/asl -->
+<!-- saved from url=(0037)https://braingps.mricloud.org/t1batch -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
 <!--     https://braingps.mricloud.org -->
-    <title>MriCloud | Brain Mapping</title>
+    <title>迈格云平台 | T1多图谱分割批处理</title>
 
     
     <link rel="shortcut icon" href="https://braingps.mricloud.org/img/favicon.ico">
@@ -35,7 +35,7 @@
 
     
     <script src="jquery/1.9.1/bootstrap.min.js"></script>
-    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href=" css/bootstrap.min.css">
  
 <!-- this theme css change the style!!!!!!!11  
   <link media="all" type="text/css" rel="stylesheet" href="https://braingps.mricloud.org/bootstrap/bootstrap-3.2.0/dist/css/bootstrap-theme.min.css">
@@ -73,15 +73,15 @@
         <div class="navbar navbar-default">
              <div class="container-fluid"> 
             
-
+ 
 <!--               <div class="collapse nav-collapse"> -->
 <!-- -->
             <ul class="nav navbar-nav">
 			<!-- UrlHelper::get_active("home") will return whether the button will appear active according to the path name -->
 			<!-- HTML::link('home','Home') first argument is path, second argument is the displayed string of the button -->
-            <li class=""><a href="BrainGPSindex.html">主页</a></li>
+            <li class=""><a href="BrainGPSindex">主页</a></li>
 			<li class="dropdown">
- 	         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">手册<b class="caret"></b></a> 
+ 	         <a href="https://braingps.mricloud.org/t1batch" class="dropdown-toggle" data-toggle="dropdown">手册<b class="caret"></b></a> 
 	        	<ul class="dropdown-menu">
 	            <li><a href="tutorial.html">T1-多图谱分割</a></li>
 	           	<li><a href="https://braingps.mricloud.org/docs/MriCloudRelease_DTI.pdf">DTI Calculation</a></li>
@@ -95,28 +95,28 @@
               <li class=""><a href="myjobstatus.html">我的工作状态</a></li>
 -->               
 				<li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">T1图像多图谱分割<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/t1batch" class="dropdown-toggle" data-toggle="dropdown">T1图像多图谱分割<b class="caret"></b></a> 
 		        	<ul class="dropdown-menu">
 <!-- 	              <li class=""><a href="https://braingps.mricloud.org/lddmm">LDDMM</a></li> -->
 		        
 <!--              <li class=""><a href="https://braingps.mricloud.org/t1prep">T1-Brain/Skull/CSF/Ventricle</a></li> -->
 	              <li class=""><a href="t1prep.html">T1-多图谱分割</a></li>
 <!--              <li class=""><a href="https://braingps.mricloud.org/t1seg">T1-250</a></li> -->
-		    	  <li class=""><a href="t1batch.html">T1-多图谱分割批处理</a></li>
+		    	  <li class="active"><a href="t1batch.html">T1-多图谱分割批处理</a></li>
 	              		    	              </ul>
 		      </li>
 				<li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">DTI<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/t1batch" class="dropdown-toggle" data-toggle="dropdown">DTI<b class="caret"></b></a> 
 		        	<ul class="dropdown-menu">
 		      	      <li class=""><a href="dtical.html">DTI 参数计算</a></li>
 		      	      <li class=""><a href="dtimultiatlasseg.html">DTI 多图谱分割</a></li>
 		      	      </ul>
       	      </li>
 	      	  <li class=""><a href="fmri.html">FMRI</a></li> 	              
-	      	  <li class="active"><a href="asl.html">ASL</a></li> 	              
+	      	  <li class=""><a href="asl.html">ASL</a></li> 	              
       	      		          	       	              
       	      <li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">表面绘制<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/t1batch" class="dropdown-toggle" data-toggle="dropdown">表面绘制<b class="caret"></b></a> 
 	        	<ul class="dropdown-menu">
               	<li class=""><a href="ste.html">从人群中建立表面模板</a></li> 	              
               	<li class=""><a href="surfacelddmm.html">将表面模板映射到人群中</a></li> 	              
@@ -127,15 +127,14 @@
 <!-- 	          <li class=""><a href="https://braingps.mricloud.org/roivis">ROIVis</a></li>-->
 	          <li class=""><a href="myjobstatus.html">我的工作状态</a></li>
 	          <li class=""><a href="atlasrepo.html">图谱信息</a></li>	          
-		      
-		    		                <li class=""><a href="profile.html">我的个人信息</a></li>		
-									<li class=""><a href="https://braingps.mricloud.org/logout">登出</a></li>									
+		      <li class=""><a href="profile.html">我的个人信息</a></li>
+		    		                <li class=""><a href="https://braingps.mricloud.org/logout">登出</a></li>					          
 		      
  <!--              <li class=""><a href="BrainGPSindex">主页</a></li>
               <li class=""><a href="datasources.html">数据来源</a></li>
               <li class=""><a href="https://braingps.mricloud.org/processingservers">Processing Servers</a></li>
 -->
-
+         
               </ul>
           </div><!--/.nav-collapse -->
       </div>
@@ -144,379 +143,236 @@
    <div class="container" style="margin-top:100px">
     <div class="nav navbar-default">
 
-        <h4>Arterial Spin Labeling MRI Processing</h4>
-<form method="POST" action="https://braingps.mricloud.org/asl" accept-charset="UTF-8" class="form-horizontal" id="fileupload"><input name="_token" type="hidden" value="PEj7qZXOVxvHQDDF9TIPTlpKeIEBnt6zhRKeelU3">
-
-    <!-- The fileinput-button span is used to style the file input field as button -->
-	<!-- as the bootstrap changes the classname will change -->	<div>
-	<p>First time user? Please go through the <a href="https://braingps.mricloud.org/docs/Manual_ASL_processing.pdf">manual</a> for ASL processing before you start.</p>
-	<p><strong>Before you upload the ASL data, you need to convert the DICOM files to 4D Analyze format by using our ASL data converter  (for <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.exe"> Windows </a> or <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.dmg"> MacOS </a>).</strong>
-	</p>
-	<p><strong>Warning</strong>: Data needs to be first converted to 4D analyze format (with .hdr/.img file extension). This conversion eliminates personal information from the file to avoid HIPPA issue. Also, this conversion works only for DICOM files directly from scanners.
-    </p><p>All visualization in MriCloud follows the Radiological convention: the left side of image is the right side of the patient. We are aware of the inconsistency in the definitions of image orientations in DICOM, Analyze, and other file types. We guarantee the right-left orientation ONLY when the raw DICOM files from scanners (not from PACS or other data archiving systems) are converted using the converter we provide.
-	
-	</p>
-	<p>If you have any questions, please do not hesitate to contact Yang Li (<a href="mailto:yli199@jhmi.edu">yli199@jhmi.edu</a>) or Hanzhang Lu (<a href="mailto:hanzhang.lu@jhu.edu">hanzhang.lu@jhu.edu</a>).	</p>
-    <p>To start over, refresh the page.</p>    
-	</div>	
-	<p><strong>Upload the .img and .hdr files from ASL scan</strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>img</span>
-        <input type="file" name="asl_img">
-    </span>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>hdr</span>
-        <input type="file" name="asl_hdr">
-    </span>
-    <br>
-    <p><strong id="asl_tip_container_0">Upload the .img and .hdr files from M0 scan (optional) <font color="red">*</font><a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_0_text"><i class="icon-info-sign" id="asl_tip_sign_0" data-hasqtip="0"></i></a></strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>img</span>
-        <input id="m0_img" type="file" name="m0_img">
-    </span>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>hdr</span>
-        <input id="m0_hdr" type="file" name="m0_hdr">
-    </span>
-    <br>
-    <p><strong id="asl_tip_container_1">Upload the zip file from T1-MultiAtlas analysis (optional) <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_1_text"><i class="icon-info-sign" id="asl_tip_sign_1" data-hasqtip="1"></i></a></strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>zip</span>
-        <input type="file" name="t1_zip">
-    </span>
-    <br>
-    <p><strong id="asl_tip_container_4">Upload the .json file that contains parameters (optional) <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_4_text"><i class="icon-info-sign" id="asl_tip_sign_4" data-hasqtip="2"></i></a></strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>json</span>
-        <input id="json_file" type="file" name="json_file">
-    </span>
-    <br>
-    <p><strong>Files selected</strong></p>
-    <div id="files" class="files"></div>
-    
-    <div id="manual_inputs">
-    <br>
-    
-    	<p class="subheading">Labeling scheme:</p>   
-        <select name="lablschm" class="form-control span5">	
-              <option value="pCASL">pCASL</option>
-              <option value="PASL">PASL</option>
-              <option value="UCLA_Siemens_pCASL">UCLA Siemens pCASL</option>
-        </select>
-    <p class="subheading">Control/label order:</p>   
-        <select name="order" id="order" class="form-control span5">	
-              <option value="Control first">Control First</option>
-              <option value="Label first">Label First</option>
-        </select>
-    	<p class="subheading">Acquisition scheme:</p>   
-        <select name="acqdim" id="acqdim" class="form-control">	
-              <option value="2D">2D</option>
-              <option value="3D">3D</option>
-        </select>
         
-    	<p class="subheading">Acquisition timing parameters:</p>
-        <div id="pCASL_options">
-	    	<div>Labeling duration (ms)</div>
-			<input type="number" name="labldur" value="1800" class="form-control span3">
-	    	<div>Post labeling delay (ms)</div>
-	    	<input type="number" name="PLD" value="1800" class="form-control span3">
-    	</div>
-        <div id="PASL_options" style="display: none;">
-	    	<div>TI1(ms)</div>
-			<input type="number" name="TI1" value="800" class="form-control span3">
-	    	<div>TI(ms)</div>
-	    	<input type="number" name="TI" value="1800" class="form-control span3">
-    	</div>
-    	<div id="2D_acq_duration_input">
-		<div id="asl_tip_container_2">Slice acquisition duration (ms)<a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_2_text"><i class="icon-info-sign" id="asl_tip_sign_2" data-hasqtip="3"></i></a></div>
-		<input type="number" name="w" value="35" class="form-control span3">
-    	</div>
-    	<p class="subheading" id="asl_tip_container_3">Background supression? <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_3_text"><i class="icon-info-sign" id="asl_tip_sign_3" data-hasqtip="4"></i></a></p>   
-        <select name="bgsup" id="bgsup" class="form-control">	
-              <option value="0">No</option>
-              <option value="1">Yes</option>
-        </select>
-		<div id="bs_group">
-	        <div id="bs_control" style="display:none">
-	        <div>(Set pre-saturation time as starting point)</div>
-	    	<div>- Back. supp. pulse time 1 (ms) </div>
-			<input type="number" name="BS[0]" value="1000" class="form-control span3">
-	    	<div>- Back. supp. pulse time 2 (ms) </div>
-			<input type="number" name="BS[1]" value="1000" class="form-control span3">
-	    	<div>- Back. supp. pulse time 3 (ms) </div>
-			<input type="number" name="BS[2]" value="0" class="form-control span3">
-	    	<div>- Back. supp. pulse time 4 (ms) </div>
-			<input type="number" name="BS[3]" value="0" class="form-control span3">
-	    	<div>- Back. supp. pulse time 5 (ms) </div>
-			<input type="number" name="BS[4]" value="0" class="form-control span3">
-			<div>- Readout excitation time (ms)	</div>
-			<input type="number" name="BS[5]" value="3600" class="form-control span3">
-			</div>
-			<div id="bs_inv" style="display:none">
-				<div>Num. of inversion pulses after labeling</div>
-				<input type="number" name="num_BS" value="2" class="form-control span3">
-				<div>Inversion efficiency</div>
-				<input type="number" name="alpha_BS" value="0.93" class="form-control span3">				
-			</div>
-		</div>
-		
-		<p class="subheading">M0 acquisition/estimation parameters:</p>
-		<div id="tr_m0_control" style="display: none;">
-			<div>TR of M0 scan (ms)</div>
-			<input type="number" id="TR_M0" name="M0_TR" value="8000" class="form-control span3">
-		</div>		
-		<div id="tissue_t1_control">
-    	<div>Tissue T1 (ms)</div>
-		<input type="number" name="T1tissue" value="1165" class="form-control span3">
-		</div>
-		
-		<p class="subheading">Assumptions for CBF quantification:</p>
-    	<div>Blood T1 (ms)</div>
-		<input type="number" name="T1blood" value="1650" class="form-control span3">
-		
-    	<div>Brain/blood partition coefficient (ml/g)</div>
-		<input type="number" name="lambda" value="0.9" class="form-control span3">
-    	<div>Labeling efficiency</div>
-		<input type="number" name="alpha_labl" value="0.85" class="form-control span3">
-        <p></p>
+<h4>T1 MultiAtlas Segmentation</h4>		
+	<a style="display: inline" href="https://braingps.mricloud.org/t1batch#footnote"><i class="icon-info-sign" id="foottip" data-hasqtip="0"></i></a>
+		<div id="footnote" style="display:none">
+		<h4>T1 MultiAtlas Segmentation</h4>
+
+			<p><u>Overview:</u> The T1 MultiAtlas Segmentation by DiffeoMaps offers the high throughput Software as a Service for processing T1 (MPRAGE) images and converting them into 286 segmented structures based on the brain Ontology of the JHU multi-atlas inventories. The pipeline uses an atlas based approach, deforming a set of atlases to your brain data, and applying the deformations to a corresponding set of segmentations. It then performs likelihood fusion across the set of segmentations, resulting in the segmentation of your data
+			.<br>
+			<u>Algorithm:</u> The MAP segmentation algorithm implemented I in the SaaS is the Multi-Atlas Likelihood Fusion (MALF) Algorithm delivering MAP reconstruction of the 286 segmented structures via likelihood fusion of the multiple segmented atlases defined under the JHU ontology described in Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model of Tang, Oishi, Faria, Hillis, Albert, Miller, PLOS One;2013http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065591,.<br>
+			
+			1) Image File Format : The Analyze 7.5 file format<br>
+			2) Image Orientation: Axial (transverse) unflipped orientation (orient=0 in *.hdr file). Sagittal images will be automatically converted to axial images but needs to be so specified in the “Slice Type” section.<br>
+			3) Image Data Format:<br>
+			i) Unsigned character (8 bits per voxel)<br>
+			ii) Signed short (16 bits per voxel) or<br>
+			iii) Single floating point (32 bits per voxel)<br>
+			</p>
+			<p>
+			<strong>Steps:</strong>
+			1) Upload Image<br>
+			i) Press the +Header push button to select your image .hdr file<br>
+			ii)Press the +Image push button to select your image .img file<br>
+			2) Select Processing Server<br>
+			Use the "Select Processing Server" dropdown menu to select the server to be used<br>
+			3) Select Atlas<br>
+			Use the "Select Atlas" dropdown menu to seletc an atlas set. Atlas set descriptions can be found when the user selects an atlas set using the dropdown menu; the description should appear on the right side on blank white region. Larger atlases will in general require a larger time of computation.<br>
+			4) Submit<br>
+			Press "Submit" button to upload your data for processing.<br>
+			5) Retrieve result<br>
+			Use "My job Status" tab to check the status of the processing your data and download the result file when the processing is finished.<br>
+			</p>
+			<p>
+			<strong>Outputs:</strong>
+			1) Images:<br>
+			A: User_defined_filename_.img/hdr: The submitted T1-weighted image that are converted to an axial image orientation, histogram matched, and intensity inhomogeneity corrected. The matrix size remains the original dimensions.<br>
+			B: User_defined_filename_ss_.img/hdr: Same as A, except that the image is skull-stripped.<br>
+			C: User_defined_filename_MNI.img/hdr: Same as A, except that the image is linearly normalized to the MNI space. The matrix size is 181x217x181 / 1 x 1 x 1 mm.<br>
+			D: User_defined_filename_MNI_SS.img/hdr: Same as C, except that the image is skull-stripped.<br>
+			2) Segmentation label files:<br>
+			A: User_defined_filename_286labels.img/hdr: An ROI file that contains the 286 defined structures. <br>
+			B: User_defined_filename_286labels_MNI.img/hdr: An ROI file that contains the 286 defined structures in the MNI space.<br>
+			C: Multilevel_lookup_table.txt: This contains structure look-up table in a text format.<br>
+			3) Volume report files:<br>
+			A: User_defined_filename_286labels_stats.txt: The volumes (mm3) of all defined structures with 10 different granularity levels in the native patient coordinates.<br>
+			B: User_defined_filename_286labels_corrected_stats.txt: Same as A, but the volumes are normalized using the total brain volume (= tissues + ventricles + sulci).<br>
+			C: User_defined_filename_286labels_MNI_stats.txt: Same as A, but after the image normalization to the MNI coordinates by linear transformation.<br>
+			</p>
+<!-- old version
+            <h4>T1 MultiAtlas Segmentation</h4>
+            <p><strong>Overview:</strong> DiffeoMaps offers the high throughput Software as a Service for processing T1 images and converting them into 250  segmented structures based on the brain Ontology of the Mori family of atlases. Anatomyworks uses an atlas based approach, deforming a set of atlases to your brain, and applying the deformations to a corresponding set of segmentations.  Anatomyworks then performs label fusion across the set of segmentations, resulting in the segmentation of your image.</p>
+            <p><strong>Algorithm: </strong>The MAP segmentation algorithm implemented I in the SaaS is the Multi-Atlas Likelihood Fusion Algorithm delivering MAP  reconstruction of the 250 segmented structures via likelihood fusion of the multiple segmented atlases defined under the Mori ontology described in Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model of Tang, Oishi, Faria, Hillis, Albert, Miller, PLOS One;2013http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0065591,.</p>
+            1)	Image File Format : The Analyze 7.5 file format<br>
+            2)	Image Orientation: Axial (transverse) unflipped orientation (orient=0 in *.hdr file).<br>
+            3)	Image Data Format:<br>
+            i) Unsigned character (8 bits per voxel)<br>
+            ii) Signed short (16 bits per voxel) or<br>
+            iii) Single floating point (32 bits per voxel)<br>
+            <p>
+            Steps:<br>
+            </p>
+            1)	Upload Image<br>
+            i) Press the +Header push button to select your image .hdr file<br>
+            ii)Press the +Image push button to select your image .img file<br>
+            2)	Select Processing Server<br>
+            Use the "Select Processing Server" dropdown menu to select the server to be used<br>
+            3)	Select Atlas<br>
+            Use the "Select Atlas" dropdown menu to seletc an atlas set.  Atlas set descriptions can be found when the user selects an atlas set using the dropdown menu; the description should appear on the right side  on blank white region.  Larger atlases will in general require a larger time of computation.<br>
+            4)	Submit<br>
+            Press "Submit" button to upload your data for processing.<br>
+            5)	Retrieve result<br>
+            Use "My job Status" tab to check the status of the processing your data and download the result file  when the processing is finished.<br>
+            <p>
+            Outputs:<br>
+            </p>
+            1)	T1 multiatlas segmentation:<br>
+            i) target.img/.hdr			T1 image (native coordinates)<br>
+            ii) target_SS.img/.hdr		T1 image (skull stripped)<br>
+            iii) target_MNI.img/.hdr		T1 image (MNI coordinates)<br>
+            iv) target_MNI_SS.img/.hdr       	T1 image (skull stripped in MNI coordinates)<br>
+            v) M1_lfseg_1.img/.hdr		label image-1 (native coordinates)<br>
+            vi) M1_lfseg_1_MNI.img/.hdr	label image-1 (MNI coordinates)<br>
+            vii) M1_lfseg_2.img/.hdr		label image-2 (native coordinates)<br>
+            viii) M1_lfseg_2_MNI.img/.hdr	label image-2 (MNI coordinates)<br>
+
+            ***Number of ROIs in each label image are different for each atlas set. label image-1 has 6 or 7 ROIs  for GM/WM/CSF/Ventricle/skull/ and background. label image-2 has more than 250 ROIs  showing different brain substructures.<br>
+
+            2)	Skull stripped T1 multiatlas segmentation:<br>
+            i) target.img/.hdr			T1 image (native coordinates)<br>
+            ii) M2_lfseg_2.img/.hdr 		label image-1 (native space, calculated using likelihood fusion)<br>
+            iii) M2_mvseg_2.img/.hdr 	label image-1 (native space, calculated using majority voting)<br>
+
+            ***Number of ROIs in each label image are different for each atlas set. label image-2 have more than 250 ROIs  showing different brain substructures.<br>
+ -->
         </div>
-        <p> <span class="subheading">Description: </span> (e.g. AD_subject1)</p>
-<input placeholder="write job description here" class="form-control span5" name="description" type="text" value="">                
-    <!-- The global progress bar -->
-        <p></p>
-        <p><strong>Progress</strong></p>
-    <div id="progress" class="progress"><div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div></div>
-        <br>    
-    <button class="btn" id="pb">Submit</button>
-    <br>
-
-
-</form><script>var filetyperegex = /(\.|\/)(img|hdr|zip|json)$/i ;
-var has_m0 = false;
-$('#acqdim').change(function() {
-	var value = $( "#acqdim" ).val();
-//	console.log('value changed: '+value);
-	switch (value){
-	// value must be quoted not numeric!!!
-	case "2D":
-		$('#2D_acq_duration_input').show();
-		break;
-	case "3D":
-		$('#2D_acq_duration_input').hide();
-		break;
-	default:
-		console.log('unknown value');			
-	}
-});
-$('#bgsup').change(function() {
-	var value = $( "#bgsup" ).val();
-	console.log("bgsup value: "+value);
-	switch(value){
-	// value must be quoted not numeric!!!	
-		case "0":
-			$('#bs_control').hide();
-			$('#bs_inv').hide();
-			break;
-		case "1":// show only when m0 not specified and bgsup is yes
-			if (!m0true())
-			{
-				$('#bs_control').show();
-			}
-			$('#bs_inv').show();
-			break;
-		default:
-			console.log('unknown value');			
-	}
-});
-
-// define a custom event, triggered by m0 file uploading: 
-$( '#tissue_t1_control' ).on( "hideme", function( event ) {
-//	console.log('tissue_t1_control triggered');
-    var div = $( this );
-    div.hide();
-});
-
-$( "#json_file" ).change(function() {
-	$('#manual_inputs').hide();	
-});
-
-$( "#m0_img, #m0_hdr" ).change(function() {
-	has_m0 = true;
-	console.log('m0 changed');
-	m0logics();
-});
-
-function m0true()
-{
-	var value = $( "select[name='lablschm']" ).val();
-	return (value == 'UCLA_Siemens_pCASL'||has_m0); 
-}
-
-function m0logics()
-{
-	if (m0true())
-	{
-		m0truelogics();
-	}else
-	{
-		m0falselogics();
-	}
-}
-function m0falselogics()
-{
-	$( "#tissue_t1_control").show();
-	$( "#tr_m0_control").hide();
-	// show only when m0 not specified and bgsup is yes
-	if ( $( "#bgsup" ).val() == '1')
-	{
-		$( "#bs_control").show();
-	}	
-}
-
-
-
-function m0truelogics()
-{
-	$( "#tissue_t1_control").hide();
-	$( "#tr_m0_control").show();
-	// show only when m0 not specified and bgsup is yes
-	$( "#bs_control").hide();
-	//	$( "#tissue_t1_control").trigger( "hideme" );
-}
-
-// change value according to values of other fields
-$( "input[name='labldur'], input[name='PLD'], input[name='TI']" ).change(function() {
-	var value = $( "select[name='lablschm']" ).val();
-	switch(value){
-	// value must be quoted not numeric!!!	
-		case "pCASL":
-		case "UCLA_Siemens_pCASL":
-			var n = Number($("input[name='labldur']").val())+Number($("input[name='PLD']").val());
-			$("input[name='BS[5]']").val( n.toString() );
-			break;
-		case "PASL":
-			$("input[name='BS[5]']").val( $("input[name='TI']").val() );
-			break;
-	}
-});
-
-$('#TR_M0').change(function() {
-	var value = $( "#TR_M0" ).val();
-//	console.log("TR_M0 value: "+value);
-	value = Number(value); 
-	if (value < 5000)
-	{
-		$( "#tissue_t1_control").show();
-	}
-	else
-	{
-		$( "#tissue_t1_control").hide();
-	}
-});
-
-
-$("select[name='lablschm']").change(function() {
-	var value = $( "select[name='lablschm']" ).val();
-	console.log("lablschm value: "+value);
-	switch(value){
-	// value must be converted to string not numeric!!!
-		case "UCLA_Siemens_pCASL":
-		case "pCASL":
-			$('#PASL_options').hide();
-			$('#pCASL_options').show();
-			var n = Number($("input[name='labldur']").val())+Number($("input[name='PLD']").val());
-			$("input[name='BS[5]']").val( n.toString() );
-			$("input[name='alpha_labl']").val( '0.85' );
-						
-			break;
-		case "PASL":
-			$('#PASL_options').show();
-			$('#pCASL_options').hide();
-			$("input[name='BS[5]']").val( $("input[name='TI']").val() );
-			$("input[name='alpha_labl']").val( '0.98' );
-			break;
-		default:
-			console.log('unknown value');
-	}
-	m0logics();
-});
-
-
-</script>
-<!-- This part must be at the end of page after all the containers loaded, and can't create contents in the $(function(){}); -->
-<div id="asl_tip_0_text" style="display:none">
-<p>M0 scan is recommended for CBF quantification if ASL scans have background suppression.</p>
-<p style="color:red">* If you are using UCLA Siemens pCASL protocol, you don’t need to upload M0 scan.</p>
-</div>
-<div id="asl_tip_1_text" style="display:none">
-For ROI analysis, you may use the T1-MultiAtlas analysis provided on this website. After you upload the MPRAGE data, T1-MultiAtlas analysis will generate a zip file that contains the ROIs. You can upload the zip file here.
-
-
-</div>
-<div id="asl_tip_2_text" style="display:none">
-For multi-slice readout, the duration for acquiring each slice is required to correct the time gap between adjacent slices.
-</div>
-<div id="asl_tip_3_text" style="display:none">
-If M0 is not provided, the background suppression timing will be needed to calculate a global M0 from control signal.
-</div>
-<div id="asl_tip_4_text" style="display:none">
-You may input the scanning parameters in the following boxes, or upload the parameter .json file from your last result.zip if you are doing batch processing.
-</div>
-
-<!-- --> <script src="jquery/1.9.1/jquery.qtip.min.js"></script>
+<!-- put all the content and behavior of the module in one place -->
+<script src="jquery/1.9.1/jquery.qtip.min.js"></script>
 <link rel="stylesheet" href="css/jquery.qtip.min.css">
-<script> 	
+	<script> 	
     // tooltip http://qtip2.com/demos
-
-//	$("#asl_tip_container_0").append('<a style="display: inline" href="#asl_tip_0_text"><i class="icon-info-sign" id="asl_tip_sign_0"></i></a>');
-/*     $("#asl_tip_sign_0").each(function(){
-        $(this).qtip({
-           content: {
-//               text: $(this).next('.tooltiptext')
-//                 text: $('#asl_tip_'+id+'_text').html()
-	              text: 'abc'
-			},
-           position: {
-               target: 'mouse', // Position it where the click was...
-               adjust: { mouse: false } // ...but don't follow the mouse
-           }
-       });
-    });
- */
- 	// can't use $(function(){}); here
-	$("[id*='asl_tip_container']").each(function(){
-        id = $(this).attr('id');
-        id = id.match(/[0-9]/)[0]; 
-        $(this).append('<a style="display: inline" href="#asl_tip_'+id+'_text"><i class="icon-info-sign" id="asl_tip_sign_'+id+'"></i></a>');
-    });
-    $("[id*='asl_tip_sign']").each(function(){
-//    $("#asl_tip_sign_0").each(function(){        
-        id = $(this).attr('id');
-        id = id.match(/[0-9]/)[0];
+    $('#foottip').each(function() {
         $(this).qtip({
             content: {
 //                text: $(this).next('.tooltiptext')
-                  text: $('#asl_tip_'+id+'_text').html()
-			},
+                  text: $('#footnote').html()
+            },
             position: {
                 target: 'mouse', // Position it where the click was...
                 adjust: { mouse: false } // ...but don't follow the mouse
-            }
-          
+            }           
             
         });
-    });
+    });   
+</script><form method="POST" action="https://braingps.mricloud.org/t1batch" accept-charset="UTF-8" class="form-horizontal" id="fileupload"><input name="_token" type="hidden" value="PEj7qZXOVxvHQDDF9TIPTlpKeIEBnt6zhRKeelU3">
+	<!-- as the bootstrap changes the classname will change -->
+	<div> <p><strong>Warning</strong>: Due to limited storage space, all jobs and their results will 
+be deleted from our server after 60 days from submission date, please download results in time.
+</p></div>	<!--	<div>
+	If your images are in DICOM format, please first convert them to Analyze format.
+	Click <a href="tools/Dcm2Analyze.exe" >here</a> to download a conversion tool for Windows OS						
+	</div>
+	--> 		
+<div><p>
 
-</script>
+Warning: All visualization in MriCloud follows the Radiology convention: 
+the image left is the patient right. We are aware of inconsistency in the definitions of 
+image orientations in DICOM, Analyze, and other file types. We guarantee the right-left 
+orientation ONLY WHEN the raw DICOM files FROM scanners (not from PACS and other data 
+archiving systems) are converted to the Analyze format using the programs we offer. 
+According to your operating systems and DICOM formats, 
+download the program for <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.exe">WindowsOS</a> or <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.dmg">MacOS</a>. 
+
+If the data are exported from other software or the images are touched by external software 
+during the preparation, the users have the responsibility to identify the right-left orientation, 
+regardless of our labeling. This can be done by inspecting the images in our output files and 
+compare them with another visualization program you trust, preferably the scanner vendors’ console or 
+workstations.</p>
+</div>	<!-- put form and picture side by side 
+	http://stackoverflow.com/questions/14148134/how-to-position-three-div-elements-side-by-side-across-a-webpage -->	
+	
+		<!-- 
+	     The fileinput-button span is used to style the file input field as button -->
+	    <p>To start over, refresh the page</p>
+	<table style="width:100%">
+		<tbody><tr>
+			<td width="50%">	
+	    <p><strong>Put your .hdr and .img files in one zip file and upload</strong></p>
+	    <!-- only one button element in a form, it's for submission!!!! you can make other elements looks like button
+	    	using class='btn' in bootstrap, but the element type button is for submission only!!!!!
+	    -->
+	    <!-- file type for fileupload -->
+	    <span class="btn btn-success fileinput-button">
+	        <i class="icon-plus icon-white"></i>
+	        <span>.zip</span>
+	        <input type="file" name="zip">
+	    </span>
+	    <br>
+	    <p><strong>Files selected</strong></p>
+	    <div id="files" class="files"></div>
+	    <br>    
+		<br>
+	       <p class="subheading">Select processing server</p>
+	        <select name="processing_serverid" id="processing_serverid" class="form-control span5">
+	            	              <option value="Gordon">Computational Anatomy Science Gateway</option>
+	            	        </select>
+	        <p></p>
+	       <p class="subheading">Select Slice Type</p>
+	        <select name="slice_type" id="" slice_type""="" class="form-control span7">
+	            	              <option value="1">Sagittal</option>
+	            	              <option value="0">Axial</option>
+	            	              <option value="2">Sagittal data converted to Axial</option>
+	            	        </select>
+	        <br>
+	        <p class="subheading">Select Atlas *</p>
+	        <select name="atlas_name" id="atlas_name" class="form-control span7">
+	        <!-- elements without a name in a form will not be in submitted data
+	        <select id="atlas_name" class="form-control span7"> -->
+	        	              <option value="0">Adult_286labels_10atlases_V5L</option>
+	            	              <option value="1">Pediatric_286labels_11atlases_V5L</option>
+	            	              <option value="2">Adult22_50yrs_289Labels_26atlases_M2_V7A</option>
+	            	              <option value="3">Adult50_90yrs_289Labels_19atlases_M2_V7A</option>
+	            	              <option value="4">Pediatric4-8yrs_289Labels_10atlases_M2_V7A</option>
+	            	              <option value="5">Pediatric8-12yrs_289Labels_28atlases_M2_V7A</option>
+	            	              <option value="6">Adult22_50yrs_283Labels_26atlases_M2_V9A</option>
+	            	              <option value="7">Adult50_90yrs_283Labels_19atlases_M2_V9A</option>
+	            	        </select>
+	        <br>
+	        <p></p>
+	        <p> <span class="subheading">Description: </span> (e.g. AD_subject1)</p>
+<input placeholder="write job description here" class="form-control span5" name="description" type="text" value="">	        <!-- The global progress bar -->
+	    
+	        <p></p>
+	        <p><strong>Progress</strong></p>
+	    <div id="progress" class="progress"><div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div></div>
+	        <br>
+	        <!-- only one button element in a form, it's for submission!!!! -->
+	    <button class="btn" id="pb">Submit</button>
+			    <br>
+	    </td>
+	    <td width="50%">
+	    <p><img src="img/T1_pipeline_graphic_images.png" align="right" border="0" width="300"></p>    </td>
+    </tr>
+    </tbody></table>
+    <!--	<div>
+	If your images are in DICOM format, please first convert them to Analyze format.
+	Click <a href="tools/Dcm2Analyze.exe" >here</a> to download a conversion tool for Windows OS						
+	</div>
+	--> 		
+<div>
+<br><br>
+<p>
+* The atlas name consists of "Age range" + "The number of defined structures" + "The number of atlases" + ("Fusion algorithm") + "Atlas version".
+<br>
+For the "Fusion algorithm" section indicates the following:
+<br>
+M1 or not specified: The fusion algorithm follows the method described by Tang et al (1).
+
+<br>
+M2: The final atlas-fusion step of this pipeline uses algorithms that was kindly provided by Drs. Hongzhi Wang and Paul Yushkevich 
+(<a target="_blank" href="http://picsl.upenn.edu/people/faculty-staff/paul-yushkevich/">http://picsl.upenn.edu/people/faculty-staff/paul-yushkevich/</a>). The details of the algorithm can be found in a reference below (2).
+<br>
+<small>(1) Tang, X., K. Oishi, A. V. Faria, A. E. Hillis, M. S. Albert, S. Mori and M. I. Miller (2013). "Bayesian Parameter Estimation and Segmentation in the Multi-Atlas Random Orbit Model." PLOS ONE 8(6): e65591, 3688886
+<br>
+(2) Wang, H., A. Pouch, M. Takabe, B. Jackson, J. Gorman, R. Gorman and P. A. Yushkevich (2013). "Multi-atlas segmentation with robust label transfer and label fusion." Inf Process Med Imaging 23: 548-559, 3974208.
+</small></p>
+</div>    </form></div>
+
+<script>var filetyperegex = /(\.|\/)(zip)$/i ;</script>    
         
     </div>
-    </div>
+    
 
     <div class="container">
     <footer>
@@ -524,7 +380,7 @@ You may input the scanning parameters in the following boxes, or upload the para
     <div class="container text-center">
         <hr>
 <p style="font-size:14px;font-family:微软雅黑">迈格云平台  <br> Site created by <a href="http://www.anatomyworks.com/">AnatomyWorks, LLC</a>. All Rights Reserved 2016 
-<a href="https://braingps.mricloud.org/asl#mricloud_tip"><i class="icon-info-sign" id="mricloudtip" data-hasqtip="5"></i></a>
+<a href="https://braingps.mricloud.org/t1batch#mricloud_tip"><i class="icon-info-sign" id="mricloudtip" data-hasqtip="1"></i></a>
 		</p><div id="mricloud_tip" style="display:none">
 		<p>	MriCloud 1.0</p>
 		<p>Copyright 2013 AnatomyWorks LLC, <a href="https://www.anatomyworks.com/">www.anatomyworks.com</a>

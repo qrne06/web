@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0033)https://braingps.mricloud.org/asl -->
+<!-- saved from url=(0042)https://braingps.mricloud.org/surfacelddmm -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
 <!--     https://braingps.mricloud.org -->
@@ -68,12 +68,14 @@
 		<script src="./addfiles/bootstrap.min.js"></script>
 		<script src="bootstrap/bootstrap-3.2.0/dist/js/bootstrap.min.js"></script>
   </head>
+  </head>
   <body>
 		        <div class="container">
         <div class="navbar navbar-default">
              <div class="container-fluid"> 
             
-
+<!--               <a class="brand" href="/">MriCloud</a> -->
+         
 <!--               <div class="collapse nav-collapse"> -->
 <!-- -->
             <ul class="nav navbar-nav">
@@ -81,7 +83,7 @@
 			<!-- HTML::link('home','Home') first argument is path, second argument is the displayed string of the button -->
             <li class=""><a href="BrainGPSindex.html">主页</a></li>
 			<li class="dropdown">
- 	         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">手册<b class="caret"></b></a> 
+ 	         <a href="https://braingps.mricloud.org/surfacelddmm" class="dropdown-toggle" data-toggle="dropdown">手册<b class="caret"></b></a> 
 	        	<ul class="dropdown-menu">
 	            <li><a href="tutorial.html">T1-多图谱分割</a></li>
 	           	<li><a href="https://braingps.mricloud.org/docs/MriCloudRelease_DTI.pdf">DTI Calculation</a></li>
@@ -95,9 +97,9 @@
               <li class=""><a href="myjobstatus.html">我的工作状态</a></li>
 -->               
 				<li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">T1图像多图谱分割<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/surfacelddmm" class="dropdown-toggle" data-toggle="dropdown">T1图像多图谱分割<b class="caret"></b></a> 
 		        	<ul class="dropdown-menu">
-<!-- 	              <li class=""><a href="https://braingps.mricloud.org/lddmm">LDDMM</a></li> -->
+<!-- 	              <li class="active"><a href="https://braingps.mricloud.org/lddmm">LDDMM</a></li> -->
 		        
 <!--              <li class=""><a href="https://braingps.mricloud.org/t1prep">T1-Brain/Skull/CSF/Ventricle</a></li> -->
 	              <li class=""><a href="t1prep.html">T1-多图谱分割</a></li>
@@ -106,35 +108,31 @@
 	              		    	              </ul>
 		      </li>
 				<li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">DTI<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/surfacelddmm" class="dropdown-toggle" data-toggle="dropdown">DTI<b class="caret"></b></a> 
 		        	<ul class="dropdown-menu">
 		      	      <li class=""><a href="dtical.html">DTI 参数计算</a></li>
 		      	      <li class=""><a href="dtimultiatlasseg.html">DTI 多图谱分割</a></li>
 		      	      </ul>
       	      </li>
 	      	  <li class=""><a href="fmri.html">FMRI</a></li> 	              
-	      	  <li class="active"><a href="asl.html">ASL</a></li> 	              
+	      	  <li class=""><a href="asl.html">ASL</a></li> 	              
       	      		          	       	              
       	      <li class="dropdown">
- 		         <a href="https://braingps.mricloud.org/asl" class="dropdown-toggle" data-toggle="dropdown">表面绘制<b class="caret"></b></a> 
+ 		         <a href="https://braingps.mricloud.org/surfacelddmm" class="dropdown-toggle" data-toggle="dropdown">表面绘制<b class="caret"></b></a> 
 	        	<ul class="dropdown-menu">
-              	<li class=""><a href="ste.html">从人群中建立表面模板</a></li> 	              
+              	<li class="active"><a href="ste.html">从人群中建立表面模板</a></li> 	              
               	<li class=""><a href="surfacelddmm.html">将表面模板映射到人群中</a></li> 	              
 <!--               	<li class=""><a href="https://braingps.mricloud.org/ste">STE</a></li> 	              
-              	<li class=""><a href="https://braingps.mricloud.org/surfacelddmm">surface LDDMM</a></li> --> 	              
+              	<li class="active"><a href="https://braingps.mricloud.org/surfacelddmm">surface LDDMM</a></li> --> 	              
               	</ul>
 		      </li>
 <!-- 	          <li class=""><a href="https://braingps.mricloud.org/roivis">ROIVis</a></li>-->
 	          <li class=""><a href="myjobstatus.html">我的工作状态</a></li>
 	          <li class=""><a href="atlasrepo.html">图谱信息</a></li>	          
 		      
-		    		                <li class=""><a href="profile.html">我的个人信息</a></li>		
-									<li class=""><a href="https://braingps.mricloud.org/logout">登出</a></li>									
+		    		                <li class=""><a href="profile.html">我的个人信息</a></li>	
+<li class=""><a href="https://braingps.mricloud.org/logout">登出</a></li>									
 		      
- <!--              <li class=""><a href="BrainGPSindex">主页</a></li>
-              <li class=""><a href="datasources.html">数据来源</a></li>
-              <li class=""><a href="https://braingps.mricloud.org/processingservers">Processing Servers</a></li>
--->
 
               </ul>
           </div><!--/.nav-collapse -->
@@ -144,150 +142,86 @@
    <div class="container" style="margin-top:100px">
     <div class="nav navbar-default">
 
-        <h4>Arterial Spin Labeling MRI Processing</h4>
-<form method="POST" action="https://braingps.mricloud.org/asl" accept-charset="UTF-8" class="form-horizontal" id="fileupload"><input name="_token" type="hidden" value="PEj7qZXOVxvHQDDF9TIPTlpKeIEBnt6zhRKeelU3">
+        
+<h4>Upload and shape template estimation</h4>
 
+	<div>
+		<a href="https://braingps.mricloud.org/ste#footnote"><i class="icon-info-sign" id="foottip"></i><br></a>
+		<div id="footnote" style="display:none">
+            <h4>DiffeoMap STE (Surface Template Estimation)</h4>
+            <p><strong> Overview:</strong> DiffeoMaps offers the high throughput Software as a Service for processing populations of triangulated meshes and creating a template surface which is centered to the population. Surface Template Estimation (STE) uses a predefined hyper-template, deforming the hyper-template so as to maximize the probability of observing the population of surfaces given the estimated template.</p>
+            <p><strong>Algorithm:</strong> The MAP algorithm implemented in the SaaS posulates that the unknown template population surface to be estimated solves the maximum a-posteriori (MAP) problem modeling the observed population of surfaces as diffeomorphically deformed versions of the unknown template with noise. The MAP algorithm iteratively deforms the hyper-template via large deformation diffeomorphic surface mapping so as to maximize the fused likelihood of having observed the population of surfaces as  described in A Bayesian Generative Model for Surface Template Estimation by Ma, Miller, and Younes, 2010; http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2946602/.</p>
+            <p>Steps:</p>
+            1)	Upload Population of Surfaces<br>
+            2)	Select Processing Server<br>
+            3)	Select Rigid Registration Flag<br>
+            4)	Submit<br>
+            5)	Retrieve result<br>
+            Surface Format:  Surfaces should be stored either in VTK Polydata format (http://www.vtk.org/VTK/img/file-formats.pdf), with extension .vtk, or in BYU format (http://www.egmodels.de/formats/Format_Byu.html), with extension .byu.
+            Upload Population of Surfaces:<br>
+            Press the +zip push button to select your population of surfaces stored as a zip archive.<br>
+            Use the Select Processing Server dropdown menu to select the server to be used.<br>
+            Use the Rigid Registration Prior To Template Estimation flag dropdown menu to select ‘true’ or ‘false’.<br>
+            Hit Submit.<br>
+
+            <p>Output:</p>
+            When the job is complete, you will receive an e-mail with the link to the results. The result consists of the following files:<br>
+            1) stg_output_final_template.byu - the template surface in byu format.<br>
+            2) stg_output_final_template.alpha – the momentum ‘alpha’ (11 X n X 3 array, where n is the number of vertices on the hyper-template), stored in the ASCII format.  This is the parameterization of the diffeomorphism, which maps the hyper-template to the template.<br>		
+
+        </div>
+	</div>
+<form method="POST" action="./ste_files/ste.htm" accept-charset="UTF-8" class="form-horizontal" id="fileupload"><input name="_token" type="hidden" value="k6tT3WyNDSoQB7ikCSn21PEUkuMtLZiqzidKAvxa">
+	<!-- as the bootstrap changes the classname will change -->
     <!-- The fileinput-button span is used to style the file input field as button -->
-	<!-- as the bootstrap changes the classname will change -->	<div>
-	<p>First time user? Please go through the <a href="https://braingps.mricloud.org/docs/Manual_ASL_processing.pdf">manual</a> for ASL processing before you start.</p>
-	<p><strong>Before you upload the ASL data, you need to convert the DICOM files to 4D Analyze format by using our ASL data converter  (for <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.exe"> Windows </a> or <a href="https://braingps.mricloud.org/tools/Dcm2Analyze_v3.dmg"> MacOS </a>).</strong>
-	</p>
-	<p><strong>Warning</strong>: Data needs to be first converted to 4D analyze format (with .hdr/.img file extension). This conversion eliminates personal information from the file to avoid HIPPA issue. Also, this conversion works only for DICOM files directly from scanners.
-    </p><p>All visualization in MriCloud follows the Radiological convention: the left side of image is the right side of the patient. We are aware of the inconsistency in the definitions of image orientations in DICOM, Analyze, and other file types. We guarantee the right-left orientation ONLY when the raw DICOM files from scanners (not from PACS or other data archiving systems) are converted using the converter we provide.
+    <p>Upload hypertemplate file</p>
+    
+    <input name="service_type" type="hidden" value="STE">
+    
+    <span class="btn btn-success fileinput-button">
+        <i class="icon-plus icon-white"></i>
+        <span>byu/vtk</span>
+        <input type="file" name="hypertemplate_or_template_file">
+    </span>
 	
-	</p>
-	<p>If you have any questions, please do not hesitate to contact Yang Li (<a href="mailto:yli199@jhmi.edu">yli199@jhmi.edu</a>) or Hanzhang Lu (<a href="mailto:hanzhang.lu@jhu.edu">hanzhang.lu@jhu.edu</a>).	</p>
-    <p>To start over, refresh the page.</p>    
-	</div>	
-	<p><strong>Upload the .img and .hdr files from ASL scan</strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>img</span>
-        <input type="file" name="asl_img">
-    </span>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>hdr</span>
-        <input type="file" name="asl_hdr">
-    </span>
-    <br>
-    <p><strong id="asl_tip_container_0">Upload the .img and .hdr files from M0 scan (optional) <font color="red">*</font><a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_0_text"><i class="icon-info-sign" id="asl_tip_sign_0" data-hasqtip="0"></i></a></strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>img</span>
-        <input id="m0_img" type="file" name="m0_img">
-    </span>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>hdr</span>
-        <input id="m0_hdr" type="file" name="m0_hdr">
-    </span>
-    <br>
-    <p><strong id="asl_tip_container_1">Upload the zip file from T1-MultiAtlas analysis (optional) <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_1_text"><i class="icon-info-sign" id="asl_tip_sign_1" data-hasqtip="1"></i></a></strong></p>
+	<p>Zip your surfaces in one file and upload, <inline style="color: #ff0000"> maximum 96 surfaces </inline></p>
+    <p>To start over, refresh the page
+    </p>
+    <p></p>
     <span class="btn btn-success fileinput-button">
         <i class="icon-plus icon-white"></i>
         <span>zip</span>
-        <input type="file" name="t1_zip">
+        <input type="file" name="zip_file" id="zip_file">
     </span>
     <br>
-    <p><strong id="asl_tip_container_4">Upload the .json file that contains parameters (optional) <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_4_text"><i class="icon-info-sign" id="asl_tip_sign_4" data-hasqtip="2"></i></a></strong></p>
-    <span class="btn btn-success fileinput-button">
-        <i class="icon-plus icon-white"></i>
-        <span>json</span>
-        <input id="json_file" type="file" name="json_file">
-    </span>
     <br>
     <p><strong>Files selected</strong></p>
     <div id="files" class="files"></div>
-    
-    <div id="manual_inputs">
     <br>
-    
-    	<p class="subheading">Labeling scheme:</p>   
-        <select name="lablschm" class="form-control span5">	
-              <option value="pCASL">pCASL</option>
-              <option value="PASL">PASL</option>
-              <option value="UCLA_Siemens_pCASL">UCLA Siemens pCASL</option>
-        </select>
-    <p class="subheading">Control/label order:</p>   
-        <select name="order" id="order" class="form-control span5">	
-              <option value="Control first">Control First</option>
-              <option value="Label first">Label First</option>
-        </select>
-    	<p class="subheading">Acquisition scheme:</p>   
-        <select name="acqdim" id="acqdim" class="form-control">	
-              <option value="2D">2D</option>
-              <option value="3D">3D</option>
-        </select>
-        
-    	<p class="subheading">Acquisition timing parameters:</p>
-        <div id="pCASL_options">
-	    	<div>Labeling duration (ms)</div>
-			<input type="number" name="labldur" value="1800" class="form-control span3">
-	    	<div>Post labeling delay (ms)</div>
-	    	<input type="number" name="PLD" value="1800" class="form-control span3">
-    	</div>
-        <div id="PASL_options" style="display: none;">
-	    	<div>TI1(ms)</div>
-			<input type="number" name="TI1" value="800" class="form-control span3">
-	    	<div>TI(ms)</div>
-	    	<input type="number" name="TI" value="1800" class="form-control span3">
-    	</div>
-    	<div id="2D_acq_duration_input">
-		<div id="asl_tip_container_2">Slice acquisition duration (ms)<a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_2_text"><i class="icon-info-sign" id="asl_tip_sign_2" data-hasqtip="3"></i></a></div>
-		<input type="number" name="w" value="35" class="form-control span3">
-    	</div>
-    	<p class="subheading" id="asl_tip_container_3">Background supression? <a style="display: inline" href="https://braingps.mricloud.org/asl#asl_tip_3_text"><i class="icon-info-sign" id="asl_tip_sign_3" data-hasqtip="4"></i></a></p>   
-        <select name="bgsup" id="bgsup" class="form-control">	
-              <option value="0">No</option>
-              <option value="1">Yes</option>
-        </select>
-		<div id="bs_group">
-	        <div id="bs_control" style="display:none">
-	        <div>(Set pre-saturation time as starting point)</div>
-	    	<div>- Back. supp. pulse time 1 (ms) </div>
-			<input type="number" name="BS[0]" value="1000" class="form-control span3">
-	    	<div>- Back. supp. pulse time 2 (ms) </div>
-			<input type="number" name="BS[1]" value="1000" class="form-control span3">
-	    	<div>- Back. supp. pulse time 3 (ms) </div>
-			<input type="number" name="BS[2]" value="0" class="form-control span3">
-	    	<div>- Back. supp. pulse time 4 (ms) </div>
-			<input type="number" name="BS[3]" value="0" class="form-control span3">
-	    	<div>- Back. supp. pulse time 5 (ms) </div>
-			<input type="number" name="BS[4]" value="0" class="form-control span3">
-			<div>- Readout excitation time (ms)	</div>
-			<input type="number" name="BS[5]" value="3600" class="form-control span3">
-			</div>
-			<div id="bs_inv" style="display:none">
-				<div>Num. of inversion pulses after labeling</div>
-				<input type="number" name="num_BS" value="2" class="form-control span3">
-				<div>Inversion efficiency</div>
-				<input type="number" name="alpha_BS" value="0.93" class="form-control span3">				
-			</div>
-		</div>
-		
-		<p class="subheading">M0 acquisition/estimation parameters:</p>
-		<div id="tr_m0_control" style="display: none;">
-			<div>TR of M0 scan (ms)</div>
-			<input type="number" id="TR_M0" name="M0_TR" value="8000" class="form-control span3">
-		</div>		
-		<div id="tissue_t1_control">
-    	<div>Tissue T1 (ms)</div>
-		<input type="number" name="T1tissue" value="1165" class="form-control span3">
-		</div>
-		
-		<p class="subheading">Assumptions for CBF quantification:</p>
-    	<div>Blood T1 (ms)</div>
-		<input type="number" name="T1blood" value="1650" class="form-control span3">
-		
-    	<div>Brain/blood partition coefficient (ml/g)</div>
-		<input type="number" name="lambda" value="0.9" class="form-control span3">
-    	<div>Labeling efficiency</div>
-		<input type="number" name="alpha_labl" value="0.85" class="form-control span3">
+       <p class="subheading">Select processing server</p>
+        <select name="processing_serverid" id="processing_serverid" class="form-control span5">
+                          <option value="ICM">ICM</option>
+                          <option value="Gordon">Gordon</option>
+                    </select>
         <p></p>
-        </div>
-        <p> <span class="subheading">Description: </span> (e.g. AD_subject1)</p>
-<input placeholder="write job description here" class="form-control span5" name="description" type="text" value="">                
+<!--  -->      <p class="subheading">rigid registration prior to template estimation</p>
+        <select name="rigid_reg_option" id="rigid_reg_option" class="form-control span3">
+                          <option value="false">false</option>
+                          <option value="true">true</option>
+                    </select>
+        <div id="left_right_patterns" style="display:none">
+        	<br>
+        	<p class="subheading">Left pattern</p>
+        	<input type="text" name="left_pattern" value="" class="form-control span5">
+        	<br>
+        	<p class="subheading">Right pattern</p>
+        	<input type="text" name="right_pattern" value="" class="form-control span5">        	
+        </div> 
+        <br>
+        <p></p>
+        <p class="subheading">Description</p>
+        <input type="text" name="description" value="write job description here" class="form-control span5">        
+        
     <!-- The global progress bar -->
         <p></p>
         <p><strong>Progress</strong></p>
@@ -297,222 +231,25 @@
     <br>
 
 
-</form><script>var filetyperegex = /(\.|\/)(img|hdr|zip|json)$/i ;
-var has_m0 = false;
-$('#acqdim').change(function() {
-	var value = $( "#acqdim" ).val();
-//	console.log('value changed: '+value);
-	switch (value){
-	// value must be quoted not numeric!!!
-	case "2D":
-		$('#2D_acq_duration_input').show();
-		break;
-	case "3D":
-		$('#2D_acq_duration_input').hide();
-		break;
-	default:
-		console.log('unknown value');			
-	}
-});
-$('#bgsup').change(function() {
-	var value = $( "#bgsup" ).val();
-	console.log("bgsup value: "+value);
-	switch(value){
-	// value must be quoted not numeric!!!	
-		case "0":
-			$('#bs_control').hide();
-			$('#bs_inv').hide();
-			break;
-		case "1":// show only when m0 not specified and bgsup is yes
-			if (!m0true())
-			{
-				$('#bs_control').show();
-			}
-			$('#bs_inv').show();
-			break;
-		default:
-			console.log('unknown value');			
-	}
-});
-
-// define a custom event, triggered by m0 file uploading: 
-$( '#tissue_t1_control' ).on( "hideme", function( event ) {
-//	console.log('tissue_t1_control triggered');
-    var div = $( this );
-    div.hide();
-});
-
-$( "#json_file" ).change(function() {
-	$('#manual_inputs').hide();	
-});
-
-$( "#m0_img, #m0_hdr" ).change(function() {
-	has_m0 = true;
-	console.log('m0 changed');
-	m0logics();
-});
-
-function m0true()
-{
-	var value = $( "select[name='lablschm']" ).val();
-	return (value == 'UCLA_Siemens_pCASL'||has_m0); 
-}
-
-function m0logics()
-{
-	if (m0true())
+</form><script>var filetyperegex = /(\.|\/)(byu|vtk|zip)$/i ;</script>    
+<!-- check the number of surfaces in zipped files -->
+<script>var max_surfaces = 96;</script>    
+<script src="./ste_files/zip.js"></script>
+<script src="./ste_files/ste_zip_helper.js"></script>
+<script>
+$("#rigid_reg_option").change(function(){
+//	alert( $(this).val() );
+	switch ($(this).val())
 	{
-		m0truelogics();
-	}else
-	{
-		m0falselogics();
-	}
-}
-function m0falselogics()
-{
-	$( "#tissue_t1_control").show();
-	$( "#tr_m0_control").hide();
-	// show only when m0 not specified and bgsup is yes
-	if ( $( "#bgsup" ).val() == '1')
-	{
-		$( "#bs_control").show();
-	}	
-}
-
-
-
-function m0truelogics()
-{
-	$( "#tissue_t1_control").hide();
-	$( "#tr_m0_control").show();
-	// show only when m0 not specified and bgsup is yes
-	$( "#bs_control").hide();
-	//	$( "#tissue_t1_control").trigger( "hideme" );
-}
-
-// change value according to values of other fields
-$( "input[name='labldur'], input[name='PLD'], input[name='TI']" ).change(function() {
-	var value = $( "select[name='lablschm']" ).val();
-	switch(value){
-	// value must be quoted not numeric!!!	
-		case "pCASL":
-		case "UCLA_Siemens_pCASL":
-			var n = Number($("input[name='labldur']").val())+Number($("input[name='PLD']").val());
-			$("input[name='BS[5]']").val( n.toString() );
+		case 'true':
+			// .css() is to get not to set the value !!!!111
+			$('#left_right_patterns').show();
 			break;
-		case "PASL":
-			$("input[name='BS[5]']").val( $("input[name='TI']").val() );
+		case 'false':
+			$('#left_right_patterns').hide();
 			break;
 	}
 });
-
-$('#TR_M0').change(function() {
-	var value = $( "#TR_M0" ).val();
-//	console.log("TR_M0 value: "+value);
-	value = Number(value); 
-	if (value < 5000)
-	{
-		$( "#tissue_t1_control").show();
-	}
-	else
-	{
-		$( "#tissue_t1_control").hide();
-	}
-});
-
-
-$("select[name='lablschm']").change(function() {
-	var value = $( "select[name='lablschm']" ).val();
-	console.log("lablschm value: "+value);
-	switch(value){
-	// value must be converted to string not numeric!!!
-		case "UCLA_Siemens_pCASL":
-		case "pCASL":
-			$('#PASL_options').hide();
-			$('#pCASL_options').show();
-			var n = Number($("input[name='labldur']").val())+Number($("input[name='PLD']").val());
-			$("input[name='BS[5]']").val( n.toString() );
-			$("input[name='alpha_labl']").val( '0.85' );
-						
-			break;
-		case "PASL":
-			$('#PASL_options').show();
-			$('#pCASL_options').hide();
-			$("input[name='BS[5]']").val( $("input[name='TI']").val() );
-			$("input[name='alpha_labl']").val( '0.98' );
-			break;
-		default:
-			console.log('unknown value');
-	}
-	m0logics();
-});
-
-
-</script>
-<!-- This part must be at the end of page after all the containers loaded, and can't create contents in the $(function(){}); -->
-<div id="asl_tip_0_text" style="display:none">
-<p>M0 scan is recommended for CBF quantification if ASL scans have background suppression.</p>
-<p style="color:red">* If you are using UCLA Siemens pCASL protocol, you don’t need to upload M0 scan.</p>
-</div>
-<div id="asl_tip_1_text" style="display:none">
-For ROI analysis, you may use the T1-MultiAtlas analysis provided on this website. After you upload the MPRAGE data, T1-MultiAtlas analysis will generate a zip file that contains the ROIs. You can upload the zip file here.
-
-
-</div>
-<div id="asl_tip_2_text" style="display:none">
-For multi-slice readout, the duration for acquiring each slice is required to correct the time gap between adjacent slices.
-</div>
-<div id="asl_tip_3_text" style="display:none">
-If M0 is not provided, the background suppression timing will be needed to calculate a global M0 from control signal.
-</div>
-<div id="asl_tip_4_text" style="display:none">
-You may input the scanning parameters in the following boxes, or upload the parameter .json file from your last result.zip if you are doing batch processing.
-</div>
-
-<!-- --> <script src="jquery/1.9.1/jquery.qtip.min.js"></script>
-<link rel="stylesheet" href="css/jquery.qtip.min.css">
-<script> 	
-    // tooltip http://qtip2.com/demos
-
-//	$("#asl_tip_container_0").append('<a style="display: inline" href="#asl_tip_0_text"><i class="icon-info-sign" id="asl_tip_sign_0"></i></a>');
-/*     $("#asl_tip_sign_0").each(function(){
-        $(this).qtip({
-           content: {
-//               text: $(this).next('.tooltiptext')
-//                 text: $('#asl_tip_'+id+'_text').html()
-	              text: 'abc'
-			},
-           position: {
-               target: 'mouse', // Position it where the click was...
-               adjust: { mouse: false } // ...but don't follow the mouse
-           }
-       });
-    });
- */
- 	// can't use $(function(){}); here
-	$("[id*='asl_tip_container']").each(function(){
-        id = $(this).attr('id');
-        id = id.match(/[0-9]/)[0]; 
-        $(this).append('<a style="display: inline" href="#asl_tip_'+id+'_text"><i class="icon-info-sign" id="asl_tip_sign_'+id+'"></i></a>');
-    });
-    $("[id*='asl_tip_sign']").each(function(){
-//    $("#asl_tip_sign_0").each(function(){        
-        id = $(this).attr('id');
-        id = id.match(/[0-9]/)[0];
-        $(this).qtip({
-            content: {
-//                text: $(this).next('.tooltiptext')
-                  text: $('#asl_tip_'+id+'_text').html()
-			},
-            position: {
-                target: 'mouse', // Position it where the click was...
-                adjust: { mouse: false } // ...but don't follow the mouse
-            }
-          
-            
-        });
-    });
-
 </script>
         
     </div>
@@ -524,7 +261,7 @@ You may input the scanning parameters in the following boxes, or upload the para
     <div class="container text-center">
         <hr>
 <p style="font-size:14px;font-family:微软雅黑">迈格云平台  <br> Site created by <a href="http://www.anatomyworks.com/">AnatomyWorks, LLC</a>. All Rights Reserved 2016 
-<a href="https://braingps.mricloud.org/asl#mricloud_tip"><i class="icon-info-sign" id="mricloudtip" data-hasqtip="5"></i></a>
+<a href="https://braingps.mricloud.org/ste#mricloud_tip"><i class="icon-info-sign" id="mricloudtip" data-hasqtip="0"></i></a>
 		</p><div id="mricloud_tip" style="display:none">
 		<p>	MriCloud 1.0</p>
 		<p>Copyright 2013 AnatomyWorks LLC, <a href="https://www.anatomyworks.com/">www.anatomyworks.com</a>
@@ -533,8 +270,8 @@ You may input the scanning parameters in the following boxes, or upload the para
         </div>
 <!-- put all the content and behavior of the module in one place -->
         
-<script src="jquery/1.9.1/jquery.qtip.min.js"></script>
-<link rel="stylesheet" href="css/jquery.qtip.min.css">
+<script src="./ste_files/jquery.qtip.min.js"></script>
+<link rel="stylesheet" href="https://braingps.mricloud.org/qtip/jquery.qtip.min.css">
 	<script> 	
     // tooltip http://qtip2.com/demos
     $('#mricloudtip').each(function() {
@@ -574,12 +311,12 @@ DTI provides a …..
     
     
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  -->
-<script src="jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-<script src="jquery/1.9.1/jquery.ui.widget.js"></script>
-<script src="jquery/1.9.1/jquery.iframe-transport.js"></script>
-<script src="jquery/1.9.1/jquery.fileupload.js"></script>
-<script src="jquery/1.9.1/jquery.fileupload-process.js"></script>
-<script src="jquery/1.9.1/jquery.fileupload-validate.js"></script>
+<script src="./ste_files/jquery.min.js" type="text/javascript"></script>
+<script src="./ste_files/jquery.ui.widget.js"></script>
+<script src="./ste_files/jquery.iframe-transport.js"></script>
+<script src="./ste_files/jquery.fileupload.js"></script>
+<script src="./ste_files/jquery.fileupload-process.js"></script>
+<script src="./ste_files/jquery.fileupload-validate.js"></script>
 
 <script>
 
